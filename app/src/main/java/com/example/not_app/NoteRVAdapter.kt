@@ -13,8 +13,8 @@ class NoteRVAdapter(
     val context: Context,
     val noteClickDeleteInterface: NoteClickDeleteInterface,
     val noteClickInterface: NoteClickInterface
-) :
-    RecyclerView.Adapter<NoteRVAdapter.ViewHolder>() {
+
+) : RecyclerView.Adapter<NoteRVAdapter.ViewHolder>() {
 
     // on below line we are creating a
     // variable for our all notes list.
